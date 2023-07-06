@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    background: #ededed;
+}
+.container{
+    max-width: 380px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFF;
+    border-bottom: 1px solid #C6C6C6;
+}
+.logo{
+    width: 127px;
+}
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+}
+.poster-details{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    
+    
+}
+.user-details{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.posted-img{
+    width: 100%;
+}
+.icon{
+    width: 34px;
+    padding: 8px 5px;
+}
+.icon:hover, .icon:active{
+    opacity: 0.5 ;
+    fill: ;
+    
+    
+}
+.location, .user-comment{
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+.likes, .comments{
+    font-size: 13px;
+    line-height: 16px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
